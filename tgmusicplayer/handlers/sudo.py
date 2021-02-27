@@ -1,10 +1,10 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-import tgcalls
-import sira
-from helpers.filters import sudoers
-from helpers.wrappers import errors
+import tgmusicplayer.tgcalls
+import tgmusicplayer.sira
+from tgmusicplayer.helpers.filters import sudoers
+from tgmusicplayer.helpers.wrappers import errors
 
 
 @Client.on_message(
