@@ -2,7 +2,7 @@ from pyrogram import Client
 from pytgcalls import PyTgCalls
 
 from tgmusicplayer.sira import is_empty, get, task_done
-import tgmusicplayer.config
+import tgmusicplayer.config as config
 
 
 client = Client(config.SESSION_NAME, config.API_ID, config.API_HASH)
