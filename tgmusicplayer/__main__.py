@@ -1,7 +1,7 @@
 from pyrogram import Client as Bot
 
 from tgmusicplayer.tgcalls import run
-from config import API_ID, API_HASH, BOT_TOKEN
+from tgmusicplayer.config import API_ID, API_HASH, BOT_TOKEN
 
 
 bot = Bot(
