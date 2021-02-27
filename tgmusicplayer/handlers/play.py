@@ -1,11 +1,11 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
-import tgcalls
-from converter import convert
-from youtube import download
-import sira
-from helpers.wrappers import errors
+import tgmusicplayer.tgcalls
+from tgmusicplayer.converter import convert
+from tgmusicplayer.youtube import download
+import tgmusicplayer.sira
+from tgmusicplayer.helpers.wrappers import errors
 
 
 @Client.on_message(
