@@ -1,7 +1,4 @@
-from os import getenv
-from dotenv import load_dotenv
-
-load_dotenv()
+from os import environ.get as getenv
 
 
 SESSION_NAME = getenv("SESSION_NAME", "session")
