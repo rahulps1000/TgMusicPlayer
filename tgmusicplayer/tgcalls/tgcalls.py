@@ -31,5 +31,4 @@ def on_stream_end(chat_id: int) -> None:
 
 
 def run():
-    #pytgcalls.run(client)
-    print(client)
+    pytgcalls.run(client)
