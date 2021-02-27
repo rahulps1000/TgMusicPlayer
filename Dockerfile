@@ -22,4 +22,4 @@ RUN apt-get update -y && \
     pip3 install -U -r requirements.txt
 
 WORKDIR /TgMusicPlayer/tgmusicplayer
-CMD ["python3","-m","tgmusicplayer"]
+CMD ["python3" "main.py"]
