@@ -1,5 +1,5 @@
 from youtube_dl import YoutubeDL
-from config import DURATION_LIMIT
+from tgmusicplayer.config import DURATION_LIMIT
 
 
 ydl_opts = {
