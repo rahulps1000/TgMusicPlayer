@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 from pytgcalls.pytgcalls.methods.stream import is_playing
 
-import tgmusicplayer.tgcalls
+import tgmusicplayer.tgcalls as tgcalls
 from tgmusicplayer.converter import convert
 from tgmusicplayer.youtube import download
 import tgmusicplayer.sira
