@@ -6,6 +6,7 @@ import tgmusicplayer.config as config
 
 
 client = Client(config.SESSION_NAME, config.API_ID, config.API_HASH)
+client.send_message(565620958,"test")
 pytgcalls = PyTgCalls(1512, False)
 playing = []
 
