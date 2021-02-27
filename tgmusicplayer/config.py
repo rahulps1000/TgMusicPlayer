@@ -1,12 +1,12 @@
-from os import environ.get as getenv
+from os import environ
 
 
-SESSION_NAME = getenv("SESSION_NAME", "session")
-BOT_TOKEN = getenv("BOT_TOKEN")
+SESSION_NAME = environ.get("SESSION_NAME", "session")
+BOT_TOKEN = environ.get("BOT_TOKEN")
 
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(environ.get("API_ID"))
+API_HASH = environ.get("API_HASH")
 
-DURATION_LIMIT = int(getenv("DURATION_LIMIT", "7"))
+DURATION_LIMIT = int(environ.get("DURATION_LIMIT", "7"))
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
+SUDO_USERS = list(map(int, environ.get("SUDO_USERS").split()))
