@@ -1,8 +1,8 @@
 from pyrogram import Client
 from pytgcalls import PyTgCalls
 
-from sira import is_empty, get, task_done
-import config
+from tgmusicplayer.sira import is_empty, get, task_done
+import tgmusicplayer.config
 
 
 client = Client(config.SESSION_NAME, config.API_ID, config.API_HASH)
