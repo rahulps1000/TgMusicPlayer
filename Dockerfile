@@ -21,7 +21,5 @@ RUN apt-get update -y && \
     cd /TgMusicPlayer && \
     pip3 install -U -r requirements.txt
 
-ENV PATH="/home/userbot/bin:$PATH"
-
 WORKDIR /TgMusicPlayer
 CMD ["python3" "-m" "tgmusicplayer"]
