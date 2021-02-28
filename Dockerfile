@@ -20,8 +20,8 @@ RUN apt-get update -y && \
     pip3 install -r requirements.txt && \
     cd /TgMusicPlayer && \
     pip3 install -U -r requirements.txt
-ENV PATH="/app/.apt/usr/bin/google_chromeheroku:$PATH"
-ENV PATH="/app/.chromedriver/bin/chromedriver:$PATH"
+
+ENV PATH="/home/userbot/bin:$PATH"
 
 WORKDIR /TgMusicPlayer
 CMD ["python3" "-m" "tgmusicplayer"]
