@@ -1,8 +1,8 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-import tgmusicplayer.tgcalls
-import tgmusicplayer.sira
+import tgmusicplayer.tgcalls as tgcalls
+import tgmusicplayer.sira as sira
 from tgmusicplayer.helpers.wrappers import errors, admins_only
 
 
