@@ -78,7 +78,7 @@ async def play(client: Client, message_: Message):
         chrome_options.add_argument("--disable-dev-shm-usage")
         chrome_options.binary_location = CHROME_BIN
         print ("`Starting Google Chrome BIN`")
-        driver = webdriver.Chrome(execution_path=CHROME_DRIVER, chrome_options=chrome_options)
+        driver = webdriver.Chrome('/app/.chromedriver/bin/chromedriver', chrome_options=chrome_options)
         
         driver.get(urls)
         time.sleep(5)
