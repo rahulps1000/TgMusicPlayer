@@ -12,7 +12,10 @@ from tgmusicplayer.helpers.wrappers import errors
 from tgmusicplayer.helpers.errors import DurationLimitError
 
 from selenium import webdriver
-import time 
+import time
+
+CHROME_BIN = "/app/.apt/usr/bin/google-chrome"
+CHROME_DRIVER = "/app/.chromedriver/bin/chromedriver"
 
 ydl_opts = {} 
 
@@ -67,7 +70,16 @@ async def play(client: Client, message_: Message):
 
         urls = text[offset:offset+length]
 
-        driver = webdriver.Chrome()
+        chrome_options = webdriver.ChromeOptions()
+        chrome_options.add_argument("--ignore-certificate-errors")
+        chrome_options.add_argument("--test-type")
+        chrome_options.add_argument("--headless")
+        chrome_options.add_argument("--no-sandbox")
+        chrome_options.add_argument("--disable-dev-shm-usage")
+        chrome_options.binary_location = CHROME_BIN
+        print ("`Starting Google Chrome BIN`")
+        driver = webdriver.Chrome(chrome_options=chrome_options)
+        
         driver.get(urls)
         time.sleep(5)
         playlist=[]
