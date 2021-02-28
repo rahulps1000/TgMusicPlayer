@@ -3,10 +3,10 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 from pytgcalls.pytgcalls.methods.stream import is_playing
 
-import tgmusicplayer.tgcalls
+import tgmusicplayer.tgcalls as tgcalls
 from tgmusicplayer.converter import convert
 from tgmusicplayer.youtube import download
-import tgmusicplayer.sira
+import tgmusicplayer.sira as sira
 from tgmusicplayer.config import DURATION_LIMIT
 from tgmusicplayer.helpers.wrappers import errors
 from tgmusicplayer.helpers.errors import DurationLimitError
