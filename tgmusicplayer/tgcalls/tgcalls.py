@@ -1,5 +1,5 @@
 from pyrogram import Client
-from pytgcalls import PyTgCalls
+from pytgcalls.pytgcalls import PyTgCalls
 
 import tgmusicplayer.sira as sira
 import tgmusicplayer.config as config
