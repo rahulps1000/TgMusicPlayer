@@ -25,6 +25,5 @@ Get STRING_NAME from here:
 
 ## Credits
 
-- [Roj](https://github.com/rojserbest): main developer
+- [Roj](https://github.com/rojserbest): Main Codes
 - [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
-- [suprojects](https://github.com/suprojects) :Project code
