@@ -1,8 +1,7 @@
 # TgMusicPlayer
-**You shouls make the bot and admin as admins in the group.**\n
-Supports Multiple group at the same time.\n
-Commands only works in groups.\n
-
+**You shouls make the bot and admin as admins in the group.**<br>
+Supports Multiple group at the same time.<br>
+Commands only works in groups.<br>
 ## Note
 
 Neither this, or PyTgCalls are stable.
