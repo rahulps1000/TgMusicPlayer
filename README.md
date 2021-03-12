@@ -29,3 +29,4 @@ Get STRING_NAME from here:
 
 - [Roj](https://github.com/rojserbest): Main Codes
 - [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
+- [Subin](https://github.com/subinps): Help in setting this up
