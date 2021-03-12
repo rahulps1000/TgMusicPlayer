@@ -1,4 +1,7 @@
 # TgMusicPlayer
+**You shouls make the bot and admin as admins in the group.**
+Supports Multiple group at the same time.
+Commands only works in groups.
 
 ## Note
 
